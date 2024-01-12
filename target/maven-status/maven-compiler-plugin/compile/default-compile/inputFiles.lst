@@ -1,0 +1,14 @@
+/Users/igor/Documents/bank/api-users/src/main/java/dev/igor/apiusers/ApiUsersApplication.java
+/Users/igor/Documents/bank/api-users/src/main/java/dev/igor/apiusers/api/response/UserResponse.java
+/Users/igor/Documents/bank/api-users/src/main/java/dev/igor/apiusers/service/UserService.java
+/Users/igor/Documents/bank/api-users/src/main/java/dev/igor/apiusers/repository/UserRepository.java
+/Users/igor/Documents/bank/api-users/src/main/java/dev/igor/apiusers/error/response/ResponseErrorList.java
+/Users/igor/Documents/bank/api-users/src/main/java/dev/igor/apiusers/error/handler/GlobalExceptionHandler.java
+/Users/igor/Documents/bank/api-users/src/main/java/dev/igor/apiusers/api/request/UserRequest.java
+/Users/igor/Documents/bank/api-users/src/main/java/dev/igor/apiusers/model/User.java
+/Users/igor/Documents/bank/api-users/src/main/java/dev/igor/apiusers/error/response/Error.java
+/Users/igor/Documents/bank/api-users/src/main/java/dev/igor/apiusers/error/response/ResponseError.java
+/Users/igor/Documents/bank/api-users/src/main/java/dev/igor/apiusers/error/UserAlreadyExistException.java
+/Users/igor/Documents/bank/api-users/src/main/java/dev/igor/apiusers/api/controller/UserController.java
+/Users/igor/Documents/bank/api-users/src/main/java/dev/igor/apiusers/service/impl/UserServiceImpl.java
+/Users/igor/Documents/bank/api-users/src/main/java/dev/igor/apiusers/adapter/PasswordAdapter.java
