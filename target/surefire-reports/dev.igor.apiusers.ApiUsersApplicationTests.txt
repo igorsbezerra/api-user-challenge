@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: dev.igor.apiusers.ApiUsersApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.375 s -- in dev.igor.apiusers.ApiUsersApplicationTests

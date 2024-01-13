@@ -19,17 +19,17 @@ import java.util.UUID;
 @Table(name = "users")
 public class User {
     @Id
-    @Column(name = "id", length = 36, nullable = false)
+    @Column(name = "id", length = 36, nullable = false, unique = true)
     private String id;
     @Column(name = "name", nullable = false)
     private String name;
-    @Column(name = "document", length = 14, nullable = false)
+    @Column(name = "document", length = 14, nullable = false, unique = true)
     private String document;
-    @Column(name = "address", nullable = false, unique = true)
+    @Column(name = "address", nullable = false)
     private String address;
     @Column(name = "password", nullable = false)
     private String password;
-    @Column(name = "created_at")
+    @Column(name = "created_at", nullable = false)
     private LocalDateTime createdAt;
 
     public static User create(final UserRequest request) {
