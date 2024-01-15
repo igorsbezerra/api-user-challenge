@@ -30,7 +30,7 @@ public class UserResponseTest {
     }
 
     @Test
-    @DisplayName("Create user response")
+    @DisplayName("Create user response with method of")
     void should_covert_a_user_response_when_invoked_method_of() {
         final var expectedId = UUID.randomUUID().toString();
         final var expectedName = "name";
