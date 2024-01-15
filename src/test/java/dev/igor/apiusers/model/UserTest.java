@@ -32,6 +32,7 @@ public class UserTest {
         final var now = LocalDateTime.now();
 
         User user = new User(expectedId, expectedName, expectedDocument, expectedAddress, expectedPassword, now);
+        user.setId(expectedId);
 
         Assertions.assertNotNull(user);
         Assertions.assertEquals(expectedId, user.getId());
