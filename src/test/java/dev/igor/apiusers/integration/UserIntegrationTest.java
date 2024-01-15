@@ -81,6 +81,14 @@ public class UserIntegrationTest {
         ).andExpect(MockMvcResultMatchers.status().isBadRequest());
     }
 
+    @Test
+    void testGet() throws Exception {
+        mockMvc.perform(
+            MockMvcRequestBuilders.get("/users/1023")
+            .contentType(MediaType.APPLICATION_JSON_VALUE)
+        ).andExpect(MockMvcResultMatchers.status().isNotFound());
+    }
+
     private String createUserJson() throws JsonProcessingException {
         ObjectNode objectNode = mapper.createObjectNode();
         objectNode.put("name", "Igor");
