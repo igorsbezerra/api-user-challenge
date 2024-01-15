@@ -82,7 +82,7 @@ public class UserIntegrationTest {
     }
 
     @Test
-    void testGet() throws Exception {
+    void should_not_be_possible_to_run_an_integrated_test_to_find_a_user_when_user_not_found() throws Exception {
         mockMvc.perform(
             MockMvcRequestBuilders.get("/users/1023")
             .contentType(MediaType.APPLICATION_JSON_VALUE)
